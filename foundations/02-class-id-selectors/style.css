@@ -1,0 +1,14 @@
+.rose big {
+    background-color: rgb(200, 100, 100);
+    font-family: "Verdana" "DejaVu Sans" sans-serif;
+  }
+
+#big-letters {
+        color: blue;
+        font-size: 36px;
+     }  
+#hulk {
+        background-color: rgb(100, 200, 100);
+        font-size: 24px;
+        font-weight: bold;
+      }
