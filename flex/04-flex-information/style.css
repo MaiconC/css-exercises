@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
 }
 
 .title {
@@ -13,6 +14,30 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.master-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.container1 {
+ 
+
+}
+
+.container2 {
+  
+}
+
+.container3 {
+  
+}
+
+.container4 {
+  
+}
+
 
 /* do not edit this footer */
 .footer {
