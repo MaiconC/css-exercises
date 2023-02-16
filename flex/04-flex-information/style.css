@@ -3,8 +3,8 @@ body {
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   display: flex;
 }
@@ -14,18 +14,30 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .master-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  text-justify: center;
+  text-align: center;
 }
 
-.text {
-  height: 30px;
-  width: 30px;
+.container1 {
+  width: 200px;
+}
+
+.container2 {
+  width: 200px;
+}
+
+.container3 {
+  width: 200px;
+}
+
+.container4 {
+  width: 200px;
 }
 
 /* do not edit this footer */
