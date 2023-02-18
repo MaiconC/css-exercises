@@ -36,7 +36,15 @@ input {
 
 .footer {
   background-color: rgba(126, 126, 126, 0.244);
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-links, .right-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
 }
