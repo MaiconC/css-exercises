@@ -28,7 +28,10 @@ body {
 a, ul{
   list-style-type: none;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
   color: white;
+  font-size: 24px;
 }
 
 /* Put everything inside the .body container into one line */
@@ -42,20 +45,20 @@ a, ul{
   width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  padding: 15px;
 }
 
 .card-container {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-wrap: wrap;
-  flex: 1;
-  min-height: 40vh;
+  min-height: 30vh;
+  width: 18vw;
+  padding: 16px;
+  margin: 13px;
 }
