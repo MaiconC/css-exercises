@@ -5,9 +5,11 @@ body {
 }
 
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
+  align-items: center;
 }
 
 .footer {
@@ -20,7 +22,14 @@ body {
   color: darkmagenta;
 }
 
+a, ul{
+  list-style-type: none;
+  text-decoration: none;
+}
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
   width: 300px;
   background: royalblue;
 }
