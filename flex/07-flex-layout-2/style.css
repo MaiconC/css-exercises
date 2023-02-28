@@ -16,8 +16,8 @@ body {
   height: 72px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
   background: #eee;
   color: darkmagenta;
 }
@@ -26,12 +26,16 @@ a, ul{
   list-style-type: none;
   text-decoration: none;
 }
+
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
 }
 
 .card {
