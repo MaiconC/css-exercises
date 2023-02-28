@@ -12,6 +12,10 @@ body {
 
 .footer {
   height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   background: #eee;
   color: darkmagenta;
 }
